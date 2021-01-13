@@ -9,7 +9,7 @@ function TransactionHistory({ transactions, onDeleteTransaction }) {
           <li key={data.id}>
             <div>{data.name}</div>
             <div>
-              <span>${data.amount}</span>
+              <span>INR.{data.amount}</span>
               <button onClick={() => onDeleteTransaction(data.id)}>x</button>
             </div>
           </li>

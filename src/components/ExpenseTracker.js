@@ -6,8 +6,6 @@ import TransactionForm from "./TransactionForm";
 
 import { uniqueId } from "../utils";
 
-// Aggregator component/container component
-
 const transactionData = [];
 
 function ExpenseTracker() {
